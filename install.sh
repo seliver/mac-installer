@@ -34,6 +34,8 @@ brew cask install google-drive
 brew cask install skitch
 brew cask install spectacle
 brew cask install logitech-control-center
+brew cask install xquartz
+brew install wine
 npm install -g imgcat-cli
 brew cask cleanup
 brew cleanup
