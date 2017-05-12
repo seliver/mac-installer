@@ -35,6 +35,7 @@ brew cask install skitch
 brew cask install spectacle
 brew cask install logitech-control-center
 brew cask install xquartz
+brew cask install limechat
 brew install wine
 npm install -g imgcat-cli
 brew cask cleanup
