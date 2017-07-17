@@ -18,7 +18,6 @@ brew cask install phpstorm
 brew cask install iterm2
 brew cask install slack
 brew cask install sequel-pro
-brew cask install keepassx
 brew cask install macpass
 brew cask install android-studio
 brew cask install torbrowser
@@ -27,7 +26,6 @@ brew cask install spotify
 brew cask install flux
 brew cask install evernote
 brew cask install sitesucker
-brew cask install mysqlworkbench
 brew cask install firefox
 brew cask install sublime-text
 brew cask install google-drive
@@ -37,8 +35,7 @@ brew cask install logitech-control-center
 brew cask install xquartz
 brew cask install limechat
 brew cask install android-platform-tools
-brew cask install spectacle
-brew install wine
+brew cask install heroku
 npm install -g imgcat-cli
 brew cask cleanup
 brew cleanup
