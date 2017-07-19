@@ -36,7 +36,7 @@ brew cask install xquartz
 brew cask install limechat
 brew cask install android-platform-tools
 brew cask install heroku
-npm install -g imgcat-cli
+npm install -g imgcat-cli npm-check
 brew cask cleanup
 brew cleanup
 brew doctor
