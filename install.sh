@@ -2,7 +2,6 @@
 brew install zsh zsh-completions
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 brew install wget
-brew install pianobar
 brew install vim
 brew install rpl
 brew install node
@@ -33,7 +32,6 @@ brew cask install skitch
 brew cask install spectacle
 brew cask install logitech-control-center
 brew cask install xquartz
-brew cask install limechat
 brew cask install android-platform-tools
 brew cask install heroku
 npm install -g imgcat-cli npm-check
