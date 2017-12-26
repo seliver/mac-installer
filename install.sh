@@ -34,7 +34,7 @@ brew cask install logitech-control-center
 brew cask install xquartz
 brew cask install android-platform-tools
 brew cask install heroku
-npm install -g imgcat-cli npm-check
+npm install -g imgcat-cli npm-check gulp-cli
 brew cask cleanup
 brew cleanup
 brew doctor
