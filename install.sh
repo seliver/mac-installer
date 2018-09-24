@@ -40,3 +40,10 @@ brew cleanup
 brew doctor
 defaults write com.apple.finder AppleShowAllFiles TRUE
 killall Finder
+
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+cd ~/.vim/bundle
+git clone https://github.com/tpope/vim-sensible.git
+git clone https://github.com/tpope/vim-fugitive.git
+git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
