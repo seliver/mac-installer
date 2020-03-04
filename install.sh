@@ -6,6 +6,7 @@ brew install vim
 brew install node
 brew install git
 brew install cask
+brew install awsebcli
 brew install php@7.3
 brew link --force --overwrite php@7.3
 pecl install xdebug
