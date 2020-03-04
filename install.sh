@@ -52,4 +52,4 @@ ln -s ~/OneDrive/.aws ~/.aws
 ln -s ~/OneDrive/.ssh ~/.ssh
 ln -s ~/OneDrive/.vimrc ~/.vimrc
 rm -f ~/.zshrc && ln -s ~/OneDrive/.zshrc ~/.zshrc
-rm -f ~/.zshrc_history && ln -s ~/OneDrive/.zshrc_history ~/.zshrc_history
+rm -f ~/.zsh_history && ln -s ~/OneDrive/.zsh_history ~/.zsh_history
