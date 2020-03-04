@@ -36,7 +36,6 @@ brew cask install firefox
 brew cask install sublime-text
 brew cask install onedrive
 brew cask install skitch
-brew cask cleanup
 brew cleanup
 brew doctor
 defaults write com.apple.finder AppleShowAllFiles TRUE
@@ -52,5 +51,5 @@ git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
 ln -s ~/OneDrive/.aws ~/.aws
 ln -s ~/OneDrive/.ssh ~/.ssh
 ln -s ~/OneDrive/.vimrc ~/.vimrc
-rm ~/.zshrc && ln -s ~/OneDrive/.zshrc ~/.zshrc
-rm ~/.zshrc_history && ln -s ~/OneDrive/.zshrc_history ~/.zshrc_history
+rm -f ~/.zshrc && ln -s ~/OneDrive/.zshrc ~/.zshrc
+rm -f ~/.zshrc_history && ln -s ~/OneDrive/.zshrc_history ~/.zshrc_history
