@@ -19,7 +19,6 @@ xdebug.remote_connect_back=1
 xdebug.remote_enable=1
 xdebug.idekey=PHPSTORM
 EOF
-echo "zend_extension=\"xdebug.so\"" >> /usr/local/etc/php/7.3/php.ini
 brew install composer
 brew cask install virtualbox
 brew cask install postman
