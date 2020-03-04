@@ -20,6 +20,7 @@ xdebug.remote_enable=1
 xdebug.idekey=PHPSTORM
 EOF
 brew install composer
+brew install postgresql
 brew cask install virtualbox
 brew cask install postman
 brew cask install vagrant
