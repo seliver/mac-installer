@@ -1,40 +1,40 @@
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew install zsh zsh-completions
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 brew install wget
 brew install vim
-brew install rpl
 brew install node
-brew install svn
 brew install git
-brew install dnsmasq
 brew install cask
+brew install php@7.3
+brew link --force --overwrite php@7.3
+pecl install xdebug
+cat > /usr/local/etc/php/7.3/conf.d/ext-xdebug1.ini <<EOF
+[xdebug]
+xdebug.remote_autostart=1
+xdebug.remote_port=9001
+xdebug.remote_host=127.0.0.1
+xdebug.remote_connect_back=1
+xdebug.remote_enable=1
+xdebug.idekey=PHPSTORM
+EOF
+brew install composer
 brew cask install virtualbox
-brew cask install rest
+brew cask install postman
 brew cask install vagrant
 brew cask install google-chrome
 brew cask install phpstorm
 brew cask install iterm2
-brew cask install slack
-brew cask install sequel-pro
+brew cask install rocket-chat
+brew cask install microsoft-teams
 brew cask install macpass
-brew cask install android-studio
-brew cask install torbrowser
-brew cask install qbittorrent
+brew cask install helium
 brew cask install spotify
 brew cask install flux
-brew cask install evernote
-brew cask install sitesucker
 brew cask install firefox
 brew cask install sublime-text
-brew cask install google-drive
+brew cask install onedrive
 brew cask install skitch
-brew cask install spectacle
-brew cask install logitech-control-center
-brew cask install xquartz
-brew cask install android-platform-tools
-brew cask install heroku
-npm install -g imgcat-cli npm-check gulp-cli
 brew cask cleanup
 brew cleanup
 brew doctor
@@ -47,3 +47,9 @@ cd ~/.vim/bundle
 git clone https://github.com/tpope/vim-sensible.git
 git clone https://github.com/tpope/vim-fugitive.git
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
+
+ln -s ~/OneDrive/.aws ~/.aws
+ln -s ~/OneDrive/.ssh ~/.ssh
+ln -s ~/OneDrive/.vimrc ~/.vimrc
+rm ~/.zshrc && ln -s ~/OneDrive/.zshrc ~/.zshrc
+rm ~/.zshrc_history && ln -s ~/OneDrive/.zshrc_history ~/.zshrc_history
