@@ -21,6 +21,7 @@ xdebug.idekey=PHPSTORM
 EOF
 brew install composer
 brew install postgresql
+brew install redis
 brew cask install virtualbox
 brew cask install postman
 brew cask install vagrant
