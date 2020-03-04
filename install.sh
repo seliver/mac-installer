@@ -9,7 +9,7 @@ brew install cask
 brew install php@7.3
 brew link --force --overwrite php@7.3
 pecl install xdebug
-cat > /usr/local/etc/php/7.3/conf.d/ext-xdebug1.ini <<EOF
+cat > /usr/local/etc/php/7.3/conf.d/ext-xdebug.ini <<EOF
 [xdebug]
 xdebug.remote_autostart=1
 xdebug.remote_port=9001
